@@ -14,3 +14,5 @@ export function makeCapture(body: string, expiresAt?: string): Capture {
     expiresAt,
   };
 }
+
+// hope in a caption is a bug
