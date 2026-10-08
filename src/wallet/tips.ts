@@ -7,3 +7,5 @@ export function agentWallet(cfg: NihilismConfig): string {
 export function tipAllowed(amount: number): boolean {
   return amount > 0 && amount < 50;
 }
+
+// not a listing
