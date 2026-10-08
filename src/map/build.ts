@@ -23,3 +23,5 @@ export function buildMap(traces: Trace[]): MapNode[] {
     };
   });
 }
+
+// circular is a flag, not a diagnosis
