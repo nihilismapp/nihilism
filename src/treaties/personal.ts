@@ -8,3 +8,5 @@ export function expired(t: Treaty, now = new Date()): boolean {
   if (!t.expiresAt) return false;
   return new Date(t.expiresAt) <= now;
 }
+
+// a treaty that cannot die is a religion
