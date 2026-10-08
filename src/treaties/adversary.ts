@@ -5,3 +5,5 @@ export function argue(treaty: Treaty, traces: Trace[]): string {
   if (!hits.length) return "no behavioral contradiction in the consented traces";
   return `treaty claims ${treaty.body.slice(0, 80)}; ${hits.length} traces do not`;
 }
+
+// no scrape
