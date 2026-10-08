@@ -8,3 +8,5 @@ export function gravity(text: string): number {
 export function isNoise(text: string): boolean {
   return gravity(text) < 0.08;
 }
+
+// noise is the default
