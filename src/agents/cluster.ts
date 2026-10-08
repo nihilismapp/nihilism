@@ -13,3 +13,5 @@ export function kill(a: Agent): Agent {
 export function living(agents: Agent[]): Agent[] {
   return agents.filter((a) => !a.killed);
 }
+
+export const CLUSTER_HOLDS_TREASURY = false;
