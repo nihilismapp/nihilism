@@ -8,3 +8,5 @@ export function diffTreaties(a: Treaty, b: Treaty): string {
 export function emptySources(nodes: MapNode[]): string[] {
   return nodes.filter((n) => n.empty).map((n) => n.source);
 }
+
+// not consciousness tourism
