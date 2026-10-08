@@ -20,3 +20,5 @@ export class VoidSurface {
     return this.items.length === 1 && this.items[0].kind === "empty";
   }
 }
+
+// empty is valid
