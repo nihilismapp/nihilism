@@ -9,3 +9,5 @@ export function broker(a: string, b: string, terms: string): AgentTreaty {
     revocable: true,
   };
 }
+
+// no UN for chatbots
